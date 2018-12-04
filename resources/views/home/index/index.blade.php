@@ -95,7 +95,7 @@
                         </div>
                         <div class="col-xs-5 col-sm-9 col-md-10 col-lg-7 tit">
                             <h5>
-                                <a href="">{{$li->art_title}}</a>
+                                <a href="{{url('newsInfo',['news_id'=>$li->art_id])}}">{{$li->art_title}}</a>
                             </h5>
                         </div>
                         <div class="col-xs-4 hidden-sm hidden-md col-lg-3 tim"><h5>{{$li->time}}</h5></div>
