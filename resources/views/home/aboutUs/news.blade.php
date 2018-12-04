@@ -94,7 +94,7 @@
                                 <a href="{{url('newsInfo',['news_id'=>$li->art_id])}}"><h4>{{$li->art_title}}</h4></a>
                             </div>
                             <div class="col-xs-12 col-sm-2 news_time">
-                                <h4>{{date('Y:m:d H:s:i',$li->art_time)}}</h4>
+                                <h4>{{date('Y-m-d H:s:i',$li->art_time)}}</h4>
                             </div>
                             <span><a href="{{url('newsInfo',['news_id'=>$li->art_id])}}">【详情】</a></span>
                         </div>
