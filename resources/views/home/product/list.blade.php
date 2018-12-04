@@ -36,8 +36,8 @@
         <div id="menu" class="collapse navbar-collapse">
             <!--菜单-->
             <ul class="nav navbar-nav navbar-right text-center">
-                <li><a href="/" class="active">首页</a></li>
-                <li><a href="{{url('goodsInfo/20')}}" >研发中心</a></li>
+                <li><a href="/">首页</a></li>
+                <li><a href="{{url('goodsInfo/20')}}"  class="active">研发中心</a></li>
                 <li><a class="disabled" disabled="true">技术支持</a></li>
                 <li><a href="{{url('about')}}">关于我们</a></li>
                 <li><a href="{{url('contact')}}">联系我们</a></li>
