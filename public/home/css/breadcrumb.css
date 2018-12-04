@@ -1,0 +1,16 @@
+.lung-breadcrumb{
+    text-align: left;
+    font-size:1em;
+    margin:2em auto;
+    color:#666666;
+}
+.lung-breadcrumb span:not(:last-child) {
+    font-weight: bold;
+    color:#000;
+}
+.lung-breadcrumb span:not(:last-child)::after {
+    content: ">";
+    display: inline;
+    color:#666666;
+    margin:0 .6em;
+}

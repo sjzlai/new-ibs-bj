@@ -1,0 +1,49 @@
+@media (min-width: 992px) {
+    div.container-fluid.aboutus_main {
+        width:90%;
+    } 
+    .lung-breadcrumb{
+        width:81%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .lung-breadcrumb{
+        width:95%;
+    }
+}
+@media (max-width: 767px) {
+    .lung-breadcrumb{
+        width:90%;
+    }
+}
+/*联系我们*/
+.contact_us {
+    background-color: #F5F5F5;
+}
+.contact_us .inner_banner>img {
+    width:100%;
+}
+/*左侧列表*/
+.contact_us .contact_left .methods_list>li {
+    padding:1.5em 1em;
+    color:#666666;
+}
+.contact_us .contact_left .methods_list>li.contact_bar {
+    background-color: #2C3E50;
+    color:#fff;
+}
+.contact_us .contact_left .methods_list>li.contact_bar>span:first-child {
+    font-size:1.3em;
+}
+.contact_us .contact_left .methods_list>li.contact_bar>span:last-child {
+    font-size:.8em;
+    color:#808B96;
+    margin-left:1em;
+}
+.contact_us .contact_left .methods_list>li:not(first-child) {
+    background-color: #F0F0F0;
+    margin-top:.2em;
+}
+.contact_us .contact_left .methods_list>li:not(first-child)>img {
+    margin-right:.5em;
+}

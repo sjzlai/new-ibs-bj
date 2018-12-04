@@ -1,0 +1,161 @@
+@media (min-width: 992px) {
+    .aboutus_main {
+        padding-bottom: 3em;
+    }
+    /*公司介绍----右侧*/
+    .introduce_content, .job_content {
+        background-color: #F0F0F0;
+        padding:4em 7em;
+    }
+    .news_content {
+        background-color: #F0F0F0;
+        padding:2em;
+    }
+    .news_img>img {
+        max-height:10em;
+    }
+
+    /*行业动态----右侧*/
+    .news_collect>span {
+        color:#E74C3C;
+        position: absolute;
+        bottom:1.5em;
+        right:.5em;
+    }
+    .news_collect .news_time {
+        text-align: right;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    /*公司介绍----右侧*/
+    .introduce_content, .job_content {
+        background-color: #F0F0F0;
+        padding:1em;
+    }
+    .news_content {
+        background-color: #F0F0F0;
+        padding:1em;
+    }
+    .news_img>img {
+        width: 100%;
+        max-height:9em;
+    }
+    /*行业动态----右侧*/
+    .news_collect>span {
+        color:#E74C3C;
+        position: absolute;
+        bottom:1.5em;
+        right:.5em;
+    }
+    .news_collect .news_time {
+        text-align: right;
+    }
+}
+@media (max-width: 767px) {
+    /*公司介绍----右侧*/
+    .introduce_content, .job_content {
+        background-color: #F0F0F0;
+        padding:1em;
+    }
+    .news_content {
+        background-color: #F0F0F0;
+        padding:1em;
+    }
+    .news_img>img {
+        width: 100%;
+        max-height:10em;
+    }
+    /*行业动态----右侧*/
+    .news_collect>span {
+        color:#E74C3C;
+        position: absolute;
+        bottom:1.5em;
+        right:.5em;
+    }
+}
+
+/*关于我们-----公共样式左侧*/
+.left_side .bgc {
+    min-height:20em;
+    width:95%;
+    background-color: #F0F0F0;
+}
+.common_bar {
+    width:100%;
+    background-color: #2C3E50;
+    padding:.5em 0 1.8em 1.5em;
+}
+.common_bar h3 {
+    color:#fff;
+}
+.common_bar h5 {
+    color:#78828D;
+}
+.common_list .lists_bar li{
+    width:100%;
+    padding:.8em 1.2em;
+    font-size: 1.2em;
+    background-color: #E5E7E8;
+    border-top:1px solid #fff;
+}
+.common_list .lists_bar li.active,.list_mini .mini_bar li.active {
+    background-color: #E74C3C;
+    color:#fff;
+}
+.list_mini .mini_bar li.active {
+    border:1px solid #E74C3C;
+}
+.list_mini .mini_bar li {
+    float:left;
+    padding:.3em 1em;
+    margin:1.5em 1em 2em 0;
+    border-radius: .5em;
+    border:1px solid #000;
+}
+
+/*公司介绍----右侧*/
+
+.introduce_content p {
+    line-height: 1.8em;
+    font-size: 1.15em;
+}
+
+/*人才招聘----右侧*/
+.right_side h3,.right_side h4 {
+    font-size: 1em;
+}
+.job_content p {
+    line-height: 1.8em;
+}
+.job_title {
+    padding:.5em 0 1em 0;
+    color:#E74C3C;
+    font-weight: bold;
+}
+.job_details {
+    font-weight: bold;
+}
+
+/*行业动态----右侧*/
+.news_img>img {
+    width: 100%;
+}
+.news_collect .news_title>h4 {
+    font-weight: bold;
+}
+.news_collect .news_time>h4 {
+    font-size: .9em;
+    color: #9D9D9D;
+}
+.news_collect {
+    border-bottom: 1px dashed #9D9D9D;
+    padding:1.5em 0;
+    position: relative;
+}
+.news_collect:first-child {
+    padding-top:0;
+}
+.news_collect:last-child {
+    border:0;
+    padding-bottom: 0;
+}

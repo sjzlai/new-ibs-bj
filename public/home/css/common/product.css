@@ -1,0 +1,233 @@
+@media (min-width: 992px) {
+    .product_manage {
+        padding-bottom: 2em;
+    }
+    .right_side {
+        padding-left:3em;
+    }
+    .right_side>.pro_row {
+        background-color: #F0F0F0;
+        padding:4em 0;
+        margin-bottom:2em;
+    }
+    .right_side .pro_img {
+        width:65%;
+        margin-left:30%;
+    }
+    .right_side .pro_img .img_big {
+        width:100%;
+        max-width:19em;
+    }
+    .carousel .carousel_list {
+        width:30%;
+        margin-left:35%;
+        margin-top:2em;
+    }
+    .right_side .pro_work {
+        width:70%;
+    }
+    .right_side .pro_work .pro_name {
+        padding:0;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+    .right_side .pro_work p {
+        line-height: 1.8em;
+        font-size: 1.2em;
+        color:#666666;
+    }
+    .carousel li.carousel_item {
+        border:1px solid #E74C3C;
+        padding:.5em;
+    }
+    .carousel li.carousel_item>img {
+         width:100%;
+    }
+    .carousel .click_left {
+        left:10%;
+    }
+    .carousel .click_right {
+        right:10%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .right_side {
+        margin-top:2em;
+    }
+    .product_manage {
+        padding-bottom: 2em;
+    }
+    .right_side>.pro_row {
+        background-color: #F0F0F0;
+        padding:4em 0;
+        margin-bottom:2em;
+    }
+    .right_side .pro_img {
+        width:100%;
+    }
+    .right_side .pro_img .img_big {
+        width:60%;
+        max-width:17em;
+    }
+    .carousel .carousel_list {
+        width:20%;
+        margin-left:40%;
+        margin-top:2em;
+    }
+    .right_side .pro_work .pro_name {
+        margin-bottom: 1em;
+    }
+    .right_side .pro_work p {
+        line-height: 1.8em;
+        font-size: 1.2em;
+        color:#666666;
+        padding-right:2em;
+    }
+    .carousel li.carousel_item {
+        border:1px solid #E74C3C;
+        padding:.5em;
+    }
+    .carousel li.carousel_item>img {
+         width:100%;
+    }
+    .carousel .click_left {
+        left:10%;
+    }
+    .carousel .click_right {
+        right:10%;
+    }
+    /*移动端下拉菜单*/
+    .dropdown-menu > .active > a {
+        background-color: #2C3E50;
+    }
+    .dropdown-menu > li > a {
+        padding:1em;
+        font-size: 1.1em;
+    }
+}
+@media (max-width: 767px) {
+    .right_side {
+        margin-top:2em;
+    }
+    .product_manage {
+        padding-bottom: 2em;
+    }
+    .right_side>.pro_row {
+        background-color: #F0F0F0;
+        padding:4em 0;
+        margin-bottom:2em;
+    }
+    .right_side .pro_img {
+        width:100%;
+    }
+    .right_side .pro_img .img_big {
+        width:60%;
+        max-width:17em;
+    }
+    .carousel .carousel_list {
+        width:20%;
+        margin-left:40%;
+        margin-top:2em;
+    }
+    .right_side .pro_work .pro_name {
+        text-align: center;
+    }
+    .right_side .pro_work p {
+        line-height: 1.8em;
+        font-size: 1.2em;
+        color:#666666;
+    }
+    .carousel li.carousel_item {
+        border:1px solid #E74C3C;
+        padding:.5em;
+    }
+    .carousel li.carousel_item>img {
+         width:100%;
+    }
+    .carousel .click_left {
+        left:10%;
+    }
+    .carousel .click_right {
+        right:10%;
+    }
+    /*移动端下拉菜单*/
+    .dropdown-menu > .active > a {
+        background-color: #2C3E50;
+    }
+    .dropdown-menu > li > a {
+        padding:1em;
+        font-size: 1.1em;
+    }
+}
+
+/*产品中心*/
+
+    /*左侧*/
+.left_side .bgc {
+    background-color: #F0F0F0;
+    font-size: 1.2em;
+}
+
+.left_side .panel.panel-default {
+    border:0;
+    padding:0;
+    margin:0;
+    margin-bottom: .4em;
+}
+.left_side .panel .panel-heading {
+    background-color: #E5E7E8;
+    border-radius: 0;
+    padding:1.1em 1.5em;
+}
+.left_side .panel-collapse .panel-body {
+    border-radius: 0;
+    background-color: #F2F2F2;
+    padding:0;
+    margin:0;
+}
+.left_side .panel-collapse .panel-body ul.pro_detail>li {
+    padding:1em 1.5em .5em;
+}
+.left_side .panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group {
+    border:0;
+}
+.panel-title {
+    position: relative;
+    font-size: 1em;
+}
+.panel-title img {
+    position: absolute;
+    right:0em;
+    top:.4em;
+}
+.panel-title img {
+    transform:rotate(0deg);
+    transition:all .3s linear;
+}
+.panel-title img.active {
+    transform:rotate(180deg);
+}
+    /*右侧*/
+
+.right_side .carousel {
+    position: relative;
+}
+.carousel .click_left, .carousel .click_right {
+    position: absolute;
+    top:42%;
+}
+.holder_bar>div {
+    line-height: 5rem;
+    background-color: #2C3E50;
+}
+.holder_bar>div+div {
+    border-left: 1px solid #fff;
+}
+.pro_content {
+    padding:2em 0 1em;
+}
+.pro_content>p {
+    line-height: 1.8em;
+    font-size: 1.2em;
+    text-indent: 2em;
+}

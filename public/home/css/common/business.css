@@ -1,0 +1,54 @@
+@media (min-width: 992px) {
+    #myCarousel {
+        padding-bottom: 5em;
+    }
+    .business_right .logo_images {
+        margin-bottom:1.8em;
+    }
+    .business_right .logo_images .logo_cell {
+        padding:0 .8em;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #myCarousel {
+        padding-bottom: 5em;
+    }
+    .business_right .logo_images {
+        margin-bottom:1em;
+    }
+    .business_right .logo_images .logo_cell {
+        padding:0 .5em;
+    }
+}
+@media (max-width: 767px) {
+    #myCarousel {
+        padding-bottom: 5em;
+    }
+    .business_right .bgc {
+        padding:.8em;
+    }
+    .business_right .logo_images {
+        margin-bottom:1em;
+    }
+    .business_right .logo_images .logo_cell {
+        padding:0 .5em;
+    }
+    .business_right .logo_images .logo_cell:nth-child(3),.business_right .logo_images .logo_cell:nth-child(4) {
+        margin-top:.8em;
+    }
+}
+/*合作伙伴公共样式*/
+.business_right .logo_images .logo_cell>img{
+    width:100%;
+}
+.business_right .carousel-indicators {
+    position: absolute;
+    /*bottom:-4em;*/
+    list-style-type: circle;
+}
+.business_right .carousel-indicators>li {
+    background-color:#5C636E;
+}
+.business_right .carousel-indicators>li.active {
+    background-color:#F8B400;
+}

@@ -1,0 +1,36 @@
+@media (min-width: 992px) {
+    .lung-breadcrumb {
+        width:78%;
+    }
+    .bgc {
+        width: 78%;
+        margin:0 auto;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .lung-breadcrumb {
+        width:90%;
+    }
+    .bgc {
+        width: 90%;
+        margin:0 auto;
+    }
+}
+@media (max-width: 767px) {
+    .lung-breadcrumb {
+        padding:1em;
+    }
+    .bgc {
+        padding:0 .5em;
+    }
+}
+
+/*新闻详情*/
+.news_time {
+    color:#9D9D9D;
+    margin-top:2em;
+}
+.detail_content {
+    font-size: 1.2em;
+    padding-bottom: 1em;
+}

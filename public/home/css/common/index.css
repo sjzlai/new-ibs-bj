@@ -1,0 +1,189 @@
+@media (min-width: 1201px) {
+    /*公司介绍*/
+    .my-main .about_us {
+        background-image:url('../../images/compony_introduce.png');
+        background-size: 100% 100%;
+    }
+    .my-main .title {
+        padding-top:3em;
+        padding-bottom:2em;
+    }
+    .my-main .title .icon-bar {
+        display: inline-block;
+        width:6em;
+        height: .2em;
+        border-top:.3em solid #000;
+        border-radius: 4px;
+    }
+    .my-main .about_us .company_intro {
+        margin-top:1em;
+        margin-bottom:6em;
+        padding: 3em;
+        background: rgba(1, 1, 1, 0.1);
+        font-size:1.1em;
+    }
+    /*行业动态*/
+    .news_right {
+        padding-left:4em;
+        padding-right:2em;
+    }
+    .news .img_show>img{
+        width:100%;
+        min-height: 18em;
+    }
+    .news_right>div.text-right{
+        margin-top:.8em;
+    }
+    .news .news_right .news_list:not(:first-child) {
+        margin-top:.5em;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    /*公司介绍*/
+    .my-main .about_us {
+        background-image:url('../../images/compony_introduce.png');
+        background-size: 100% 100%;
+    }
+    .my-main .title {
+        padding-top:3em;
+        padding-bottom:2em;
+    }
+    .my-main .title .icon-bar {
+        display: inline-block;
+        width:6em;
+        height: .2em;
+        border-top:.3em solid #000;
+        border-radius: 4px;
+    }
+    .my-main .about_us .company_intro {
+        margin-top:1em;
+        margin-bottom:6em;
+        padding: 3em;
+        background: rgba(1, 1, 1, 0.1);
+        font-size:1.1em;
+    }
+    /*行业动态*/
+    .news_right {
+        padding-left:4em;
+    }
+    .news .img_show>img{
+        width:100%;
+        min-height: 17em;
+    }
+    .news_right>div.text-right{
+        margin-top:1em;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    /*公司介绍*/
+    .my-main .about_us {
+        background-image:url('../../images/company_small.jpg');
+        background-size: 100% 100%;
+    }
+    .my-main .title {
+        padding-top:3em;
+        padding-bottom:2em;
+    }
+    .my-main .title .icon-bar {
+        display: inline-block;
+        width:6em;
+        height: .2em;
+        border-top:.3em solid #000;
+        border-radius: 4px;
+    }
+    .my-main .about_us .company_intro {
+        margin-top:1em;
+        margin-bottom:6em;
+        padding: 1em;
+        background: rgba(1, 1, 1, 0.1);
+        font-size:1.1em;
+    }
+    /*行业动态*/
+    .news_right {
+        padding-left:2em;
+    }
+    .news .img_show>img{
+        width:100%;
+        min-height: 17em;
+    }
+    .news_right>div.text-right{
+        margin-top:.8em;
+    }
+}
+@media (max-width: 767px) {
+    .my-main .about_us {
+        background-image:url('../../images/company_small.jpg');
+        background-size: 100% 100%;
+    }
+    .my-main .title {
+        padding-top:1em;
+        padding-bottom:.5em;
+    }
+    .my-main .title .icon-bar {
+        display: inline-block;
+        width:6em;
+        height: .2em;
+        border-top:.3em solid #000;
+        border-radius: 4px;
+    }
+    .my-main .about_us .company_intro {
+        margin-top:1em;
+        margin-bottom:1em;
+        padding-top: 1em;
+        background: rgba(1, 1, 1, 0.1);
+        font-size:1.1em;
+    }
+    /*行业动态*/
+    .news_right>div.text-right{
+        margin-bottom:1em;
+    }
+}
+
+/*公共样式*/
+.text-right {
+    font-weight: bold;
+    color:#FC4349;
+}
+/*行业动态*/
+.news .news_left .word_show {
+    position: relative;
+    margin:1.5em 0 3em 0;
+    }
+.news .news_left .word_show>a {
+    position: absolute;
+    bottom:0;
+    right:0;
+    color:#FC4349;
+    font-weight: bold;
+}
+/*动态---右侧*/
+.news_right h1,.news_right h2,.news_right h3,.news_right h4,.news_right h5 {
+    padding:0;
+    margin:0;
+}
+.news_right .news_list:first-child {
+    background-color: #2C3E50;
+    color: #fff;
+}
+.news .news_right .news_list {
+    padding:.8em 0 1.4em 0;
+}
+.news .news_right .news_list:first-child .ind>h1>span {
+    border-bottom:.1em solid #fff;
+}
+.news .news_right .news_list:not(:first-child) .ind>h1>span {
+    color:#ccc;
+    border-bottom:.1em solid #CCCCCC;
+}
+.news .news_right .news_list .ind>h1>span {
+    font-size: 1.3em;
+}
+.news .news_right .news_list .tit>h5 {
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-top:.5em;
+}
+.tim>h5 {
+    padding-top:.5em;
+    text-align:right;
+}

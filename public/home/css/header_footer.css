@@ -1,0 +1,136 @@
+@media (min-width: 1201px) {
+    /*页头*/
+    #menu>ul>li {
+        padding:1em 0;
+        color:#fff;
+    }
+    #menu>ul>li>a {
+        padding:.5em 1.8em;
+        font-size:1.2em;
+        margin-right:1em;
+    }
+    /*底部*/
+    .footer .bottom_path>li {
+        float:left;
+        width:20%;
+        color:#fff;
+        border-right:1px solid #fff;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    /*页头*/
+    #menu>ul>li {
+        padding:1em 0;
+        color:#fff;
+    }
+    #menu>ul>li>a {
+        padding:.5em 1.5em;
+        font-size:1.2em;
+    }
+    /*底部*/
+    .footer .bottom_path>li {
+        float:left;
+        width:20%;
+        color:#fff;
+        border-right:1px solid #fff;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        padding-top:4.2em;
+    }
+    /*页头*/
+    #menu>ul>li {
+        padding:1em 0;
+        color:#fff;
+    }
+    #menu>ul>li>a {
+        padding:.4em 1em;
+        font-size:1.1em;
+    }
+    /*底部*/
+    .footer .bottom_path>li {
+        float:left;
+        width:20%;
+        color:#fff;
+        border-right:1px solid #fff;
+    }
+}
+@media (max-width: 767px) {
+    body {
+        padding-top:4.5em;
+    }
+    /*页头*/
+    #menu>ul>li {
+        padding:0;
+        color:#fff;
+    }
+    .navbar {
+        padding-bottom:.5em;
+    }
+    /*底部*/
+    .footer .beian>p>span {
+        display: inline-block;
+    }
+}
+/*全局样式*/
+body {
+    background-color: #F5F5F5;
+}
+/*页头*/
+.index_nav {
+    background-color:rgba(44, 62, 80, 0.7);
+}
+.my-logo>img {
+    width:4em;
+}
+.logo_word {
+    display: inline-block;
+    color:#fff;
+    position: relative;
+    top:1em;
+}
+.logo_word>div:first-child {
+    font-size: 1.2em;
+}
+.logo_word>div:last-child {
+    font-size: .8em;
+}
+#menu>ul>li>a {
+    color:inherit;
+}
+#menu .nav li a.active {
+    background-color: #E74C3C;
+    border-radius: 10px;
+}
+.navbar #menu>ul>li>a.disabled, .footer .bottom_path .disabled {
+    color:#ACB5C5;
+}
+/*主体部分*/
+.navbar {border:0;}
+.my-main .banner_img>img {
+    width:100%;
+}
+/*底部导航*/
+.footer {
+    width:100%;
+    background-color:#2C3E50;
+}
+.bottom_logo {
+    padding-top:1.5em;
+    padding-bottom:1.5em;
+}
+.footer .bottom_logo>img {
+    width:5em;
+}
+.footer .bottom_path>li:last-child {
+    border:0;
+}
+.footer .beian>p {
+    color:#fff;
+    margin:2em auto;
+}
+/*内页banner图*/
+.common .inner_banner>img {
+    width:100%;
+}
