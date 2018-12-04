@@ -56,9 +56,9 @@
                     </div>
                     <div class="common_list">
                         <ul class="lists_bar">
-                            <li class="active"><a href="{{url('about')}}">公司介绍</a></li>
+                            <li><a href="{{url('about')}}">公司介绍</a></li>
                             <li><a href="{{url('recruit')}}">人才招聘</a></li>
-                            <li><a href="{{url('newsList')}}">行业动态</a></li>
+                            <li class="active"><a href="{{url('newsList')}}">行业动态</a></li>
                         </ul>
                     </div>
                 </div>
